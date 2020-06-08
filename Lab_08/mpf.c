@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-    clocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian");
     const char* input_file =  argv[1];
     const char* output_file = argv[2];
 
